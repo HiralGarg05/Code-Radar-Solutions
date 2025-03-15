@@ -1,8 +1,7 @@
-// Your code here...
 #include <stdio.h>
 int main(){
-    char neww;
-    scanf("%c",&neww);
-    printf("You entered: %c",neww);
+    char a;
+    scanf("%c",&a);
+    printf("You entered: %c",a);
     return 0;
 }
