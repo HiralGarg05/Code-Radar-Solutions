@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int year,days;
+    int year;
     scanf("%d",&year);
-    if(days<=365 || days>366){
+    if(year % 4 ==o && year % 100 !=100 || year % 400 ==0){
         printf("Not a Leap Year");
     }
     else{
