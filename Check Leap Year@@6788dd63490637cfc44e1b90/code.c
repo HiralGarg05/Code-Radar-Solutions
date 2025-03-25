@@ -5,7 +5,7 @@ int main(){
     if(days<=365 || days>366){
         printf("Not a Leap Year");
     }
-    if(days==366){
+    else{
         printf("Leap year");
     }
     return 0;
