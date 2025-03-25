@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char a['A''B''C''D''F'];
+    char a;
     scanf("%c",&a);
     if(a=='A'){
         printf("Excellent");
